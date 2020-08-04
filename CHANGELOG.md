@@ -14,6 +14,9 @@ and what APIs have changed, if applicable.
 
 ## [Unreleased]
 
+## [29.4.12] - 2020-08-08
+- Add feature for client/server controlled feature default values in return records
+
 ## [29.4.11] - 2020-08-06
 - Relax validation of read-only fields for upsert usecase: UPDATE used for create or update. Fields marked as ReadOnly will be treated as optional for UPDATE methods.
 
@@ -32,7 +35,6 @@ and what APIs have changed, if applicable.
 ## [29.4.6] - 2020-07-29
 - Provide a default symbol table provider implementation that doesn't use symbol tables for requests/responses of its own, but is able to retrieve remote symbol tables to decode responses from other services (#357)
 - Provide public method in the AbstractRequestBuilder for adding field projections (#353)
-- Add feature for client controlled feature to add/patch default values in return records
 
 ## [29.4.5] - 2020-07-21
 - Update ExtensionSchemaValidation task to check extension schema annotation (#254)
